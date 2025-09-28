@@ -21,7 +21,7 @@ This project is an **AI-powered stock market posting agent** that:
 
 ## Project Structure
 
-- `bot.py` — Main bot logic and posting loop
+- `telegram_bot.py` — Main bot logic and posting loop
 - `ai_helper.py` — AI caption and summary generation
 - `db_helper.py` — SQLite logging
 - `logger.py` — Rotating file logger
@@ -34,13 +34,13 @@ This project is an **AI-powered stock market posting agent** that:
 
 1. **Clone the repository**  
    ```sh
-   git clone <your-repo-url>
+   git clone https://github.com/seelneas/Automated-AI-Posting-Agent.git
    ```
 2. **Create a virtual environment**
     ```sh
         python3 -m venv venv
-        source venv/bin/activate   
-        venv\Scripts\activate     
+        source venv/bin/activate # On Linux/macOS
+        venv\Scripts\activate    # On Windows 
     ```
 2. **Install dependencies**  
    ```sh
