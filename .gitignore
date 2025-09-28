@@ -1,0 +1,12 @@
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.env
+.env
+data/stock_bot.db
+logs/
+*.log
+charts/
+.vscode/
+.DS_Store

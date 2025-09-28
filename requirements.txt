@@ -1,0 +1,6 @@
+yfinance
+matplotlib
+python-telegram-bot
+schedule
+google-generativeai
+python-dotenv
